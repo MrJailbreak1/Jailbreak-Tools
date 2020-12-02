@@ -118,12 +118,12 @@ local function GoToNew()
 				if syn then
 					syn.queue_on_teleport(
 						crossServerSettings ..
-							" '))()"
+							" loadstring(game:HttpGet('https://raw.githubusercontent.com/MrJailbreak1/Jailbreak-Tools/main/Master/Script/Jailbreak'))()"
 					)
 				else
 					queue_on_teleport(
 						crossServerSettings ..
-							" '))()"
+							" loadstring(game:HttpGet('https://raw.githubusercontent.com/MrJailbreak1/Jailbreak-Tools/main/Master/Script/Jailbreak'))()"
 					)
 				end
 			end
